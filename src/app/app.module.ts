@@ -2,10 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FirstComponentComponent } from './components/first-component/first-component.component';
+import { MeuComponenteComponent } from './components/meu-componente/meu-componente.component';
+import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { DirectivesComponent } from './components/directives/directives.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FirstComponentComponent,
+    MeuComponenteComponent,
+    ParentDataComponent,
+    DirectivesComponent,
+    IfRenderComponent
   ],
   imports: [
     BrowserModule
